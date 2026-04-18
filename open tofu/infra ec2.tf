@@ -2,7 +2,7 @@
 
 variable "git_repo" {
   type    = string
-  default = "https://github.com/HealerMikado/postagram_ensai.git" # <- remplacer par votre repo fork si besoin
+  default = "https://github.com/Aichadia/postagram-ensai-group.git" # <- remplacer par votre repo fork si besoin
 }
 
 ########################################
