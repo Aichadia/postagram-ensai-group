@@ -11,5 +11,5 @@ rm .env
 echo 'BUCKET=${bucket}' >> .env
 echo 'DYNAMO_TABLE=${dynamo_table}' >> .env
 pip3 install -r requirements.txt
-venv/bin/python app.py
+nohup venv/bin/python app.py > /var/log/postagram.log 2>&1 &
 echo "userdata-end
