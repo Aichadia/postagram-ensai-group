@@ -1,4 +1,17 @@
 .DS_Store
 
-open tofu/.terraform
+# OpenTofu / Terraform
+open tofu/.terraform/
+open tofu/output/
 open tofu/.terraform.lock.hcl
+open tofu/terraform.tfstate
+open tofu/terraform.tfstate.backup
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Node
+webapp/node_modules/
